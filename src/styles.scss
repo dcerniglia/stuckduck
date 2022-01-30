@@ -1,4 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+// bootstrap
+@import "bootstrap/scss/bootstrap";
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Raleway&display=swap');
+
+// colors
+$primaryYellow: rgb(247, 210, 66);
+
+
+html,
+body {
+  background-color: black;
+}
+
+.sub-heading{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.title {
+  font-family: 'Anton', sans-serif;
+  font-size: 80px;
+  line-height: 1.1;
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  top: 0px;
+  overflow: visible;
+}
+
+.bottom-half {
+  background-color: white;
+}
+
+.row {
+  padding-left: 2rem;
+}
+
+.yellow {
+	color: $primaryYellow;
+}
+
+p {
+	font-family: 'Catamaran', sans-serif;
+}
+
+span {
+	color: white;
+}
